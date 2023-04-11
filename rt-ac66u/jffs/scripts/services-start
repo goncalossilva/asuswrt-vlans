@@ -1,0 +1,16 @@
+#!/bin/sh
+
+source /jffs/scripts/vlans/helpers.sh
+
+configure_vlans_on_switch_ports
+add_vlans_to_eth0
+bring_vlans_up
+remove_guest_wifis_from_br0
+add_linux_network_bridges
+add_guest_wifis_to_network_bridges
+add_interfaces_to_linux_network_bridges
+bring_network_bridges_up
+update_nvram
+restart_eapd
+flush_ebtables
+restart_http_gui
