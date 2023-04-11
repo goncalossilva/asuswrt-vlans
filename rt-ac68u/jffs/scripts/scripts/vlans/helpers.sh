@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# 0. Docs
-#
 # $ brctl show
 #
 # Check bridges in the Linux kernel.
