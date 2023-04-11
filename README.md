@@ -1,4 +1,4 @@
-# Asuswrt VLANS
+# Asuswrt VLANs
 
 Example VLAN setup across a router, an ASUS RT-AC68U (AP mode) and an ASUS RT-AC66U (AP mode):
 
